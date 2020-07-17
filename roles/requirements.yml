@@ -1,4 +1,4 @@
 ---
-- src: ssh://dev-azds.testroyallondongroup.com:22/DefaultCollection/Engineering_CCA/_git/ansible_netbackup_agent
+- src: https://github.com/ericsysmin/ansible-collection-system.git
   scm: git
   name: nbu
