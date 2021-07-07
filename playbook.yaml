@@ -1,14 +1,14 @@
 ---
 - hosts: all
   roles:
-    -ansible.tower.tower_schedule
+    - ansible.tower.tower_schedule
   tasks:
-  - name: Build a schedule for Demo Job Template
-    ansible.tower.tower_schedule:
-      name: "Schedule 1"
-      state: present
-      unified_job_template: "Prueba"
-      rrule: "DTSTART:20191219T130551Z RRULE:FREQ=WEEKLY;INTERVAL=1;COUNT=1"
-    register: result
+    - name: Build a schedule for Demo Job Template
+      ansible.tower.tower_schedule:
+        name: "Schedule 1"
+        state: present
+        unified_job_template: "Prueba"
+        rrule: "DTSTART:20191219T130551Z RRULE:FREQ=WEEKLY;INTERVAL=1;COUNT=1"
+      register: result
 #  - include_role:
 #      name: "nbu"
