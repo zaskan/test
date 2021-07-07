@@ -5,7 +5,7 @@
       ansible.tower.tower_schedule:
         name: "Schedule 1"
         state: present
-        unified_job_template: "Prueba"
+        unified_job_template: "Test"
         rrule: "DTSTART:20191219T130551Z RRULE:FREQ=WEEKLY;INTERVAL=1;COUNT=1"
       register: result
 #  - include_role:
