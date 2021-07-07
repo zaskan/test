@@ -1,7 +1,5 @@
 ---
 - hosts: all
-  roles:
-    - ansible.tower.tower_schedule
   tasks:
     - name: Build a schedule for Demo Job Template
       ansible.tower.tower_schedule:
