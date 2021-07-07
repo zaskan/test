@@ -1,4 +1,4 @@
 ---
-collections
+collections:
   - name: ansible.tower
     source: https://cloud.redhat.com/ansible/automation-hub/ansible/tower/
