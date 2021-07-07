@@ -1,4 +1,3 @@
 ---
-- src: https://github.com/ericsysmin/ansible-collection-system.git
-  scm: git
-  name: nbu
+- src: https://cloud.redhat.com/ansible/automation-hub/ansible/tower/
+  name: ansible.tower
